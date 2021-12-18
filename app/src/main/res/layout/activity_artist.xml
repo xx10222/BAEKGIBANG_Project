@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="ABOUT BAEKHYUN"
+        android:textStyle="bold"
+        android:textColor="#616161"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile"/>
+    <ScrollView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
+        android:background="@drawable/boarder"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:background="#dcdcdc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="백현"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="BAEKHYUN | 가수, 탤런트"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="출생 : 1992.05.06, 황소자리, 원숭이띠"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="나이 : 30세, 만 29세"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="소속그룹 : EXO, EXO-CBX, SuperM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="소속사 : SM엔터테인먼트"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="수상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2021 | 엠넷 아시안 뮤직 어워즈 남자 가수상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2021 | 제10회 가온차트 뮤직 어워즈 피지컬앨범부문 올해의 가수상 2분기"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2021 | 제35회 골든디스크 어워즈 음반부문 본상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2020 | 엠넷 아시안 뮤직 어워즈 남자 가수상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2020 | 제12회 멜론뮤직어워드 TOP10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2020 | 제34회 골든디스크 어워즈 음반부문 본상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2019 | 엠넷 아시안 뮤직 어워즈 남자 가수상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2017 | 제31회 골든디스크 어워즈 디지털음원부문 본상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2016 | SAF 연기대상 뉴스타상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2016 | 엠넷 아시안 뮤직 어워즈 베스트 콜라보레이션"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2016 | 제8회 멜론뮤직어워드 뮤직스타일상 알앤비소울 부문"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="2016 | 아시아 아티스트 어워즈 인기상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="인스타그램 : @baekhyunee_exo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="유튜브 : 백현 BaekHyun"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cookandroid.term_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Term_Project">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoadingActivity" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LottoActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".Btn1Activity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".Btn2Activity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".Btn3Activity"/>
+        <activity android:name=".TeolaegiActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".OriginalVideoActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".InfoActivity"/>
+        <activity android:name=".WorkActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".PuppyActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".BirthdayActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".DollActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".BHActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".EXOActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".HappyActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".SadActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".LonelyActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".LoveActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".SleepActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".GoActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".HeartActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".ArtistActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>

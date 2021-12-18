@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#ffbcd9"
+        android:text="백현이를 기다리는 방법1, 큥튜브 시청"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/kyungtube"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 월 1회 큥튜브 업로드"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="20dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:background="@drawable/square_background_border_black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="추천 영상 'ㅅ'"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnWork"
+                android:background="@drawable/work"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="백현이의 브이로그🔥"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnPuppy"
+                android:background="@drawable/puppy"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="몽룡이의 브이로그🐶"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnBirthday"
+                android:background="@drawable/birthday"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="에리야 생일 축하해❤"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnDoll"
+                android:background="@drawable/doll"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="터래기 탄생 신화✨"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="더 많은 영상 시청하기 'ㅅ'"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnBH"
+                android:background="@drawable/kyungtube"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="기존 큥튜브 더보기 'ㅅ'"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnEXO"
+                android:background="@drawable/cung"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="최신 큥튜브 더보기 *'ㅅ'*"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

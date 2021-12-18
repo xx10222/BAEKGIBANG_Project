@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#ffbcd9"
+        android:text="백현이를 기다리는 방법3, #백현아오늘은"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘 하루 있었던 일들을 기록하고 공유해보세요 'ㅅ'"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/purple_700"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5sp">
+
+
+        <TextView
+            android:id="@+id/viewDatePick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffe650"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+
+        <EditText
+            android:id="@+id/edtDiary"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:background="#ffe650"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:padding="7sp"
+            android:textSize="15dp"
+            android:layout_margin="3dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="새 일기 저장" />
+    </LinearLayout>
+</LinearLayout>

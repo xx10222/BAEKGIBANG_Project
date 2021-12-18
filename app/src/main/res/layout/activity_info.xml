@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/zzanggu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#ffbcd9"
+        android:text="앱 정보"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"/>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="제작자 정보"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="제작 동기"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="어플 설명"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="향후 계획"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Millionaire"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="백현이를 기다리는 3가지 방법"/>
+
+
+
+
+</LinearLayout>
